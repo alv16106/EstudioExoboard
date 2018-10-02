@@ -1,7 +1,7 @@
 // @flow
 
 //INCORRECTO
-function foo(x: ?string): string {
+function foo(x: ?number): string {
     if (x) {
         return x;
     }
